@@ -352,6 +352,14 @@ header .vote {
 	color: #fff;
 }
 
+header .vote a {
+    color: #fff;
+}
+
+header .vote a:hover {
+    color: #ff9999;
+}
+
 header .title {
 	font-family: 'Volkhov', serif;
     font-size: 26px;
