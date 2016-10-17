@@ -6,6 +6,7 @@ $('.info').click(function(e){
 $('.results').click(function(e){
     $('#results').slideToggle();
     $('html, body').animate({ scrollTop: 0 }, 500);
+
 });
 
 $('.showresults').click(function(e){

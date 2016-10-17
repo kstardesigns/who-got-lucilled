@@ -81,7 +81,7 @@ body {
 
 .submitbox {
 	display: none;
-    height: 130px;
+    height: auto;
     width: 400px;
     background: #222;
     position: absolute;
@@ -137,8 +137,7 @@ body {
 }
 
 .submitbox input {
-    float: left;
-    margin: 0 20px; 
+    margin: 20px auto; 
     border-radius: 0px;
 }
 
@@ -438,6 +437,7 @@ footer {
     font-size: 12px;
     margin: 15px 0;
     line-height: 15px;
+    padding: 0 20px;
 }
 
 .last {
@@ -489,7 +489,7 @@ footer {
 	header .icons i.results { background-position: 0 -18px;}
 	header .icons i.results:hover { background-position: -18px -18px; }
     #info .close, #results .close { top: 5px; right: 15px; }
-    .submitbox, .neganbox { width: 230px; height: 200px; left: calc(50% - 115px);}
+    .submitbox, .neganbox { width: 280px; height: auto; left: calc(50% - 140px);}
     .neganbox { height: auto; }
     .submitbox input { display: block; margin: 20px auto; float: none; }
     .buttons { width: 230px; }
