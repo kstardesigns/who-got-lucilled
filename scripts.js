@@ -8,6 +8,11 @@ $('.results').click(function(e){
     $('html, body').animate({ scrollTop: 0 }, 500);
 });
 
+$('.showresults').click(function(e){
+    $('#results').slideToggle();
+    $('html, body').animate({ scrollTop: 0 }, 500);
+});
+
 $('.characters li label').click(function(e){
 	var thisvote = $(this).attr('for');
 
