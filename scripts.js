@@ -6,12 +6,16 @@ $('.info').click(function(e){
 $('.results').click(function(e){
     $('#results').slideToggle();
     $('html, body').animate({ scrollTop: 0 }, 500);
-
 });
 
 $('.showresults').click(function(e){
     $('#results').slideToggle();
     $('html, body').animate({ scrollTop: 0 }, 500);
+});
+
+$('.showthedead').click(function(e){
+    $('.characters li#glenn .bg').toggleClass('dead');
+    $('.characters li#abraham .bg').toggleClass('dead');
 });
 
 $('.characters li label').click(function(e){

@@ -33,6 +33,11 @@ body {
 	z-index: 1;
 }
 
+.characters li .bg.dead { 
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 .characters li label { 
 	position: relative; 
 	height: 100%; 
@@ -77,6 +82,10 @@ body {
     .characters li#carl:hover .bg { background-image: url(assets/carl.gif); }
     .characters li#rick:hover .bg { background-image: url(assets/rick.gif); }
     .characters li#negan:hover .bg { background-image: url(assets/negan.gif); }
+
+    .characters li#abraham:hover .bg.dead { background-image: url(assets/abraham-dead.gif); -webkit-filter: grayscale(100%) brightness(75%); filter: grayscale(100%) brightness(75%);  }
+    .characters li#glenn:hover .bg.dead { background-image: url(assets/glenn-dead.gif); -webkit-filter: brightness(200%); filter: brightness(200%); }
+
 }
 
 .submitbox {
